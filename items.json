@@ -1,0 +1,33 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SchemenBrew",
+				"abbreviation": "SBrew",
+				"full": "Schemen Homebrews",
+				"authors": [
+					"Schemen"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/schemen/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 1705313847
+	},
+	"item": [
+		{
+			"name": " Ampule of Misty Step",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "source": "SchemenBrew",
+            "entries": [
+                "An ampule filled with whirling mists. As a bonus action, a user can break the ampule to immediately cast {@spell Misty Step}."
+            ],
+            "attachedSpells": [
+                "misty step"
+            ]
+        }
+    ]
+}
