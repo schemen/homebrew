@@ -1,0 +1,122 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "SchemenBrewMonsters",
+                "abbreviation": "SBM",
+                "full": "Schemen Homebrews - Monsters",
+                "authors": [
+                    "Schemen"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/schemen/homebrew",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 1705313847
+    },
+    "monster": [
+    {
+        "name": "Ghost of Bael Durin",
+        "size": [
+            "M"
+        ],
+        "type": "Undead (Dwarf)",
+        "source": "SchemenBrewMonsters",
+        "alignment": [
+            "N",
+            "E"
+        ],
+        "ac": [
+            10
+        ],
+        "hp": {
+            "average": 15,
+            "formula": "4d6"
+        },
+        "speed": {
+            "walk": 0,
+            "fly": 50
+        },
+        "str": 1,
+        "dex": 14,
+        "con": 11,
+        "int": 10,
+        "wis": 10,
+        "cha": 11,
+        "passive": 10,
+        "cr": "1/2",
+        "languages": [
+            "Dwarvish"
+        ],
+        "languageTags": [
+            "D"
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "senseTags": [
+            "D"
+        ],
+        "resist": [
+            {
+                "resist": [
+                    "bludgeoning",
+                    "piercing",
+                    "slashing"
+                ],
+                "note": "from Nonmagical Attacks",
+                "cond": true
+            }
+        ],
+        "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "prone",
+            "restrained",
+            "unconscious"
+        ],
+        "trait": [
+            {
+                "name": "Sunlight Sensitivity",
+                "entries": [
+                    "While in sunlight, the ghost of bael durin has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+                ]
+            },
+            {
+                "name": "Incorporeal Movement",
+                "entries": [
+                    "The ghost of bael durin can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 4 ({@dice 1d8}) force damage if it ends its turn inside an object."
+                ]
+            }
+        ],
+        "traitTags": [
+            "Incorporeal Movement",
+            "Sunlight Sensitivity"
+        ],
+        "action": [
+            {
+                "name": "Life Drain",
+                "entries": [
+                    "{@atk msa} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) necrotic damage. The target must succeed on a {@dc 10} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+                ]
+            }
+        ],
+        "miscTags": [
+            "HPR"
+        ],
+        "damageTags": [
+            "N",
+            "O"
+        ],
+        "savingThrowForced": [
+            "constitution"
+        ]
+    }
+    ]
+}

@@ -21,7 +21,7 @@
 			"name": " Ampule of Misty Step",
             "rarity": "uncommon",
             "wondrous": true,
-            "source": "SchemenBrew",
+            "source": "SchemenBrewItems",
             "entries": [
                 "An ampule filled with whirling mists. As a bonus action, a user can break the ampule to immediately cast {@spell Misty Step}."
             ],
