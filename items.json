@@ -2,15 +2,15 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SchemenBrew",
-				"abbreviation": "SBrew",
-				"full": "Schemen Homebrews",
+				"json": "SchemenBrewItems",
+				"abbreviation": "SBI",
+				"full": "Schemen Homebrews - Items",
 				"authors": [
 					"Schemen"
 				],
-				"version": "1.0.0",
+				"version": "1.0.1",
 				"url": "https://github.com/schemen/homebrew",
-				"targetSchema": "1.0.0"
+				"targetSchema": "1.0.1"
 			}
 		],
 		"dateAdded": 0,
