@@ -8,9 +8,9 @@
 				"authors": [
 					"Schemen"
 				],
-				"version": "1.2.0",
+				"version": "1.2.1",
 				"url": "https://github.com/schemen/homebrew",
-				"targetSchema": "1.2.0"
+				"targetSchema": "1.2.1"
 			}
 		],
 		"dateAdded": 0,
@@ -25,6 +25,18 @@
 			"entries": [
 				"An ampule filled with whirling mists. As a bonus action, a user can break the ampule to immediately cast {@spell Misty Step}."
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://www.dndbeyond.com/avatars/thumbnails/38677/831/1000/1000/638382539524121847.png"
+						}
+					}
+				]
+			},
+
 			"attachedSpells": [
 				"misty step"
 			]
