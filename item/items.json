@@ -8,13 +8,13 @@
 				"authors": [
 					"Schemen"
 				],
-				"version": "1.0.1",
+				"version": "1.2.0",
 				"url": "https://github.com/schemen/homebrew",
-				"targetSchema": "1.0.1"
+				"targetSchema": "1.2.0"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1705313847
+		"dateLastModified": 1705789540
 	},
 	"item": [
 		{
@@ -27,6 +27,50 @@
 			],
 			"attachedSpells": [
 				"misty step"
+			]
+		},
+		{
+			"name": "Moundheart",
+			"source": "SchemenBrewItems",
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Whip",
+					"entries": [
+						"As an action, you can cast {@spell Thorn Whip} using your melee attack modifier for the Sword."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Once a mere blade, this longsword was reborn when lightning struck its wielder amidst a dense forest. From the aftermath, a Shambling Mound emerged, its heart pulsating with the very sword that witnessed the storm's wrath."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://www.dndbeyond.com/avatars/thumbnails/37697/264/1000/1000/638339315292160754.jpeg"
+						}
+					}
+				]
+			},
+			"attachedSpells": [
+				"thorn whip"
 			]
 		}
 	]
