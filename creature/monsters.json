@@ -11,11 +11,11 @@
 				"version": "1.4.0",
 				"url": "https://github.com/schemen/homebrew",
 				"targetSchema": "1.4.0",
-				"edition": "classic"
+				"edition": "one"
 			}
 		],
 		"dateAdded": 1705313847,
-		"dateLastModified": 1768381731,
+		"dateLastModified": 1768382581,
 		"edition": "classic"
 	},
 	"monster": [
