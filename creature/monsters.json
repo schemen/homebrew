@@ -8,14 +8,14 @@
 				"authors": [
 					"Schemen"
 				],
-				"version": "1.3.0",
+				"version": "1.4.0",
 				"url": "https://github.com/schemen/homebrew",
-				"targetSchema": "1.3.0",
+				"targetSchema": "1.4.0",
 				"edition": "classic"
 			}
 		],
-		"dateAdded": 1768332486,
-		"dateLastModified": 1768333951,
+		"dateAdded": 1705313847,
+		"dateLastModified": 1768381731,
 		"edition": "classic"
 	},
 	"monster": [
@@ -225,7 +225,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Orin Leth - lol",
+			"name": "Orin Leth",
 			"isNpc": true,
 			"source": "SchemenBrewMonsters",
 			"page": 295,
@@ -740,6 +740,250 @@
 							"path": "bestiary/MM/White Dragon.webp"
 						},
 						"credit": "Lars Grant-West"
+					}
+				]
+			}
+		},
+		{
+			"name": "Saeth",
+			"source": "SchemenBrewMonsters",
+			"page": 65,
+			"size": [
+				"M"
+			],
+			"type": "fiend",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"average": 105,
+				"formula": "14d8 + 42"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 16,
+			"int": 14,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"str": "+7",
+				"con": "+6",
+				"int": "+5",
+				"cha": "+6"
+			},
+			"skill": {
+				"deception": "+6",
+				"perception": "+4",
+				"stealth": "+7"
+			},
+			"senses": [
+				"Darkvision 120 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Infernal"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The cambion casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+					],
+					"daily": {
+						"2e": [
+							"{@spell Alter Self|XPHB}",
+							"{@spell Command|XPHB} (level 3 version)",
+							"{@spell Detect Magic|XPHB}"
+						],
+						"1e": [
+							"{@spell Dominate Person|XPHB} (level 8 version)",
+							"{@spell Plane Shift|XPHB} (self only)"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cambion makes two attacks, using Claw or Fire Ray in any combination."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atkr m} {@hit 7}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Slashing damage plus 7 ({@damage 2d6}) Fire damage."
+					]
+				},
+				{
+					"name": "Fire Ray",
+					"entries": [
+						"{@atkr r} {@hit 7}, range 120 ft. {@h}13 ({@damage 3d6 + 3}) Fire damage."
+					]
+				}
+			],
+			"environment": [
+				"any"
+			],
+			"treasure": [
+				"relics"
+			],
+			"token": {
+				"name": "Cambion",
+				"source": "XMM"
+			},
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.ponz.io/audio/bestiary/cambion.mp3"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"I"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MA",
+				"RA"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"prone"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"name": "Cambion",
+				"source": "XMM",
+				"entries": [
+					{
+						"type": "section",
+						"name": "Cambion",
+						"entries": [
+							"{@i Mortal Infused with Fiendish Might}",
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									{
+										"type": "item",
+										"name": "Habitat:",
+										"entry": "{@filter Any|bestiary|environment=any}"
+									},
+									{
+										"type": "item",
+										"name": "Treasure:",
+										"entry": "{@table Random Magic Items - Relics|XDMG|Relics}"
+									}
+								]
+							},
+							"Cambions are former mortals corrupted by fiendish power or possessed by insidious forces. While tieflings are free-willed individuals with a hint of fiendish ancestry, cambions are inherently tied to or remade by the wicked magic of the Lower Planes.",
+							"Many cambions serve the malevolent forces that are the source of their powers. Others seek to claim the might of whatever created them or to seize otherworldly powers of their own. Among the most notorious of such cambions is Iuz, a villain who became an evil demigod and whose villainous nation threatens the Free City of Greyhawk on Oerth.",
+							"Cambions come into being in disparate ways. Roll on or choose a result from the Cambion Origins table to determine the source of a cambion's fiendish might.",
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"It seems that I must do everything myself, since I have only fools for servants. Clearly disappointment must ever be the price of divinity."
+										],
+										"by": "Iuz the Evil, Cambion Demigod"
+									}
+								]
+							},
+							{
+								"type": "table",
+								"caption": "Cambion Origins",
+								"colLabels": [
+									"1d6",
+									"The Cambion Gained Its Power After..."
+								],
+								"colStyles": [
+									"col-2 text-center",
+									"col-10"
+								],
+								"rows": [
+									[
+										"1",
+										"Being possessed by a fiendish being."
+									],
+									[
+										"2",
+										"Being resurrected by an evil magic-user."
+									],
+									[
+										"3",
+										"Lengthy exposure to a Lower Plane."
+									],
+									[
+										"4",
+										"Making a bargain with a Fiend."
+									],
+									[
+										"5",
+										"Suffering a god's curse."
+									],
+									[
+										"6",
+										"Taking part in fiendish rituals."
+									]
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/XMM/Cambion.webp"
+						},
+						"credit": "Justin Gerard"
 					}
 				]
 			}
